@@ -152,7 +152,7 @@ $(document).ready(function () {
             // Call to Music API to grab Related Artists
             var APIKey2 = "8189f287014498b50483839cf645fcef";
             var queryURL3 = "https://api.musixmatch.com/ws/1.1/artist.related.get?artist_id=" + trackList[0].track.artist_id + "&page_size=2&page=1&apikey=" + APIKey2;
-            var proxy = "https://cors-anywhere.herokuapp.com/";
+            var proxy = "hhttps://cors--anywhere-server.herokuapp.com/";
             var finishedurl2 = proxy + queryURL3;
 
             $.ajax({
