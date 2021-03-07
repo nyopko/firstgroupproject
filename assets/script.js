@@ -102,7 +102,7 @@ $(document).ready(function () {
           // Music App API Key
           var APIKey2 = "8189f287014498b50483839cf645fcef";
           var queryURL2 = "https://api.musixmatch.com/ws/1.1/album.tracks.get?album_id=" + albumID + "&page=1&page_size=20&apikey=" + APIKey2;
-          var proxy = "https://cors-anywhere.herokuapp.com/";
+          var proxy = "https://crossorigin.me/";
           var finishedurl = proxy + queryURL2;
 
           $.ajax({
